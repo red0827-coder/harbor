@@ -39,7 +39,7 @@ jobs:
     - name: Use Skopeo to Guo Image to Insecure Harbor Registry
       run: |
         #!/usr/bin/env bash
-        skopeo copy --dest-tls-verify=false docker://docker.io/rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.59.1 docker://x454262h22.qicp.vip:86/rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.59.1
+        skopeo copy --dest-tls-verify=false docker://docker.io/foxiswho/rocketmq:server-4.5.2 docker://x454262h22.qicp.vip:86/common/foxiswho/rocketmq:server-4.5.2
 
 
 
